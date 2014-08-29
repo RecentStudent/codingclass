@@ -22,5 +22,20 @@
 
 .page-navigation ul li a:hover {
 	color: #333;
-        text-decoration: underline;
+        text-decoration: none;
+}
+
+h1.name-color {
+	color:#E60000;
+}
+
+.page-navvideo {
+	background-color:#E60000;
+    
+    height: 50px;
+}
+
+.page-linkcolor li a:hover {
+	text-decoration: none;
+	color:#FF0066;
 }
