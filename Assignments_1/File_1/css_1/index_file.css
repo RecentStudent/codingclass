@@ -25,22 +25,26 @@
         text-decoration: none;
 }
 
-h1.name-color {
-	color:#E60000;
-}
-
-.page-navvideo {
-	background-color:#E60000;
-    
-    height: 50px;
-}
-
-.page-linkcolor li a:hover {
-	text-decoration: none;
-	color:#FF0066;
+.main-content {
+    background: #fff;
+    margin-left: 200px;
 }
 
 .header-index {
     text-align: center;
-    color: #FF0066;
+    font-size: 100px;
+}
+
+.footer-index {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    padding: 16px;
+    background: #754719;
+}
+
+.header-block {
+    background: #4747A3;
+    color: #fff;
+    
 }
