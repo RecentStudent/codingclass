@@ -5,33 +5,34 @@
 }
 
 .body {
-    font: sans-serif;
+    font-family: sans-serif;
 }
 
-.page-navigation ul {
+.page-navigation {
 	list-style: none;
 }
-.page-navigation ul li {
+.page-navigation li {
 	padding: 0 25px;
     float: top;
     line-height: 50px;
+    border-bottom-style: dotted;
 }
 
-.page-navigation ul li a{
-	color:#fff;
+.page-navigation li a{
+	color:#222;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
 }
 
-.page-navigation ul li a:hover {
+.page-navigation li a:hover {
 	color: #333;
         text-decoration: none;
 }
 
 .main-content {
     background: #fff;
-    margin-left: 200px;
+    margin-left: 280px;
 }
 
 .header-index {
@@ -45,9 +46,18 @@
     font-size: 13px;
     padding: 16px;
     background: #754719;
+    clear: both;
 }
 
 .header-block {
     background: #4747A3;
     color: #fff;
 }
+
+.wrapper-navigation {
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 220px;
+    clear: both;
+}
+
