@@ -1,11 +1,10 @@
-.page-navigation {
-    background-color:#00CC00;
-    
-    height: 50px;
+.content-background {
+    background-color: #fff;
 }
 
 .body {
     font-family: sans-serif;
+    background: #000066;
 }
 
 .page-navigation {
@@ -21,13 +20,12 @@
 .page-navigation li a{
 	color:#222;
     text-decoration: none;
-    font-weight: bold;
     font-size: 20px;
 }
 
 .page-navigation li a:hover {
 	color: #333;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 .main-content {
@@ -37,7 +35,7 @@
 
 .header-index {
     text-align: center;
-    font-size: 100px;
+    font-size: 150px;
 }
 
 .footer-index {
@@ -47,17 +45,20 @@
     padding: 16px;
     background: #754719;
     clear: both;
+    border-radius: 15px;
 }
 
 .header-block {
     background: #4747A3;
     color: #fff;
+    border-radius: 15px;
+    float: l
 }
 
 .wrapper-navigation {
     float: left;
     margin-right: 0px;
-    margin-bottom: 220px;
     clear: both;
+    background: #fff;
 }
 
