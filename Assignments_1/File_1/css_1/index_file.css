@@ -12,6 +12,7 @@
 .page-navigation {
 	list-style: none;
     padding: 0px;
+    margin-top: 0px;
 }
 .page-navigation li {
     float: top;
@@ -21,7 +22,7 @@
 }
 
 .page-navigation li a{
-	color:#222;
+	color: #996633;
     text-decoration: none;
     font-size: 20px;
     padding-left: 40px;
@@ -37,10 +38,12 @@
 }
 
 .header-index {
-    font-size: 150px;
+    font-weight: bold;
+    font-size: 75px;
     display: inline;
     float: right;
     margin-right: 100px;
+    margin-top: 75px;
 }
 
 .footer-index {
@@ -48,7 +51,7 @@
     color: #fff;
     font-size: 13px;
     padding: 16px;
-    background: #754719;
+    background: #663300;
     clear: both;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -64,8 +67,10 @@
 
 .wrapper-navigation {
     float: left;
+    color: #996633;
     margin-right: 0px;
     clear: both;
+    padding-bottom: 150px;
 }
 
 .content-border {
@@ -73,6 +78,7 @@
 }
 
 .tiny-paragraph {
+    color: #000;
     font-size: 12px;
     font-style: normal;
     padding-left: 40px;
