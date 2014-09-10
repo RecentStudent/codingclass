@@ -1,19 +1,22 @@
 .content-background {
     background-color: #fff;
+    padding-bottom: 100px;
 }
 
 .body {
     font-family: sans-serif;
     background: #000066;
+    padding: 50px;
 }
 
 .page-navigation {
 	list-style: none;
+    padding: 0px;
 }
 .page-navigation li {
-	padding: 0 25px;
     float: top;
     line-height: 50px;
+    border-width: 1px;
     border-bottom-style: dotted;
 }
 
@@ -21,6 +24,7 @@
 	color:#222;
     text-decoration: none;
     font-size: 20px;
+    padding-left: 40px;
 }
 
 .page-navigation li a:hover {
@@ -29,13 +33,14 @@
 }
 
 .main-content {
-    background: #fff;
-    margin-left: 280px;
+    display: inline;
 }
 
 .header-index {
-    text-align: center;
     font-size: 150px;
+    display: inline;
+    float: right;
+    margin-right: 100px;
 }
 
 .footer-index {
@@ -45,20 +50,42 @@
     padding: 16px;
     background: #754719;
     clear: both;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .header-block {
     background: #4747A3;
     color: #fff;
-    border-radius: 15px;
-    float: l
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-bottom: 30px;
 }
 
 .wrapper-navigation {
     float: left;
     margin-right: 0px;
     clear: both;
+}
+
+.content-border {
+    border-radius: 15px;
+}
+
+.tiny-paragraph {
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 40px;
+}
+
+.beef {
     background: #fff;
+    padding-bottom: 30px;
+}
+
+.float-image {
+    display: inline;
+    margin-top: 28px;
+    margin-left: 50px
 }
 
