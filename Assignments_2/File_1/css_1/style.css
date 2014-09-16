@@ -1,0 +1,27 @@
+.body {
+	background-image: url(http://sandbox.yoyogames.com/extras/image/name/san2/989/311989/original/screenshot101.png);
+	padding: 100px 200px;
+}
+
+.main-content {
+	font-family: sans-serif;
+}
+.logo-header {
+	color: #FFF;
+}
+
+
+.contact-info {
+	color: #0000FF;
+	float: right;
+	text-align: right;
+	margin-top: 30px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.address {
+	font-weight: lighter;
+}
