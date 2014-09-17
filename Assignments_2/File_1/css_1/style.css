@@ -5,11 +5,16 @@
 
 .main-content {
 	font-family: sans-serif;
+
 }
+
+.header-bar {
+	width: 969px;
+}
+
 .logo-header {
 	color: #FFF;
 }
-
 
 .contact-info {
 	color: #0000FF;
@@ -24,4 +29,24 @@
 
 .address {
 	font-weight: lighter;
+}
+
+.content {
+	background: #FFF;
+	height: 1000px;
+	width: 1000px;
+}
+
+.navigation {
+	height: 50px;
+	width: 900px;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	padding: 40px 25px;
 }
