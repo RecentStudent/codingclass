@@ -75,19 +75,31 @@
 	margin-left: 100px;
 	padding:0;
 }
+
 .block-nav li {
 	float: left;
 	margin: 10px;
 	box-sizing: border-box;
 	list-style: none;
+	
+}
+
+.normal {
+	background-color: #FFF;
+	width: 175px;
+	border-color: #00CC99;
+	border-style: 
+	
+}
+
+.not-normal {
+	background-color: #FFF;
+	width: 175px;
+	height: 250px;
+}
+
+.wrap {
 	width: 175px;
 	height: 250px;
 	background-color: #00CC99;
-}
-
-.imageback {
-	margin-top: 75px;
-	background-color: #FFF;
-	width: 150px;
-	margin-left: 12.5px;
 }
