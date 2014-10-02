@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <title>U.S. History</title>
+    <link rel="stylesheet" type="text/css" href="css_1/style.css" />
+  </head>
+  <body class="body">
+
+    <div class="entire-content">
+     
+      <div class="header-content">
+        <div class="intro">
+          <h1 class="title">Ms. Spitz's</h1>
+          <h3 class="title-2">U.S. History</h3>
+        </div> <!-- end of intro -->
+      </div> <!-- end of header content -->
+
+      <div class="main-content">
+
+        <div class="intro-nav">
+          <nav>
+            <ul class="header-nav">
+              <li><a>About</a></li>
+              <li><a>Classwork</a></li>
+              <li><a>Homework</a></li>
+              <li><a>Ms. Spitz!</a></li>
+              <li><a>Extra</a></li>
+            </ul>
+          </nav>
+        </div> <!-- end of intro-nav -->
+        
+      </div> <!-- end of main-content -->
+
+      <div class="footer-content">
+        
+      </div> <!-- end of footer-content -->
+
+    </div> <!-- end of entire-content -->
+  
+  </body>
+</html>

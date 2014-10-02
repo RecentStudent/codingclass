@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html body {
+  background-image: url(http://s.cdpn.io/55807/mooning.png);
+  width: 100%;
+}
+
+#page-header {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+  background: #323232;
+  border-bottom: 5px solid black;
+  box-shadow: 0px 10px 30px black;
+}
+#page-header .logo a {
+  background: url(http://www.me.ngb.army.mil/img/core/military_history.jpg) no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 92px;
+  width: 127px;
+  background-size: 100%;
+}
+#page-header nav {
+  margin: 15px auto;
+  width: 75%;
+  font-size: 1.6rem;
+}
+#page-header nav ul {
+  list-style-type: none;
+  white-space: nowrap;
+}
+#page-header nav ul li {
+  display: inline-block;
+  color: white;
+  margin-left: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition-property: color, background;
+  transition-duration: .3s, .3s;
+  transition-timing-function: linear, linear;
+}
+#page-header nav ul li:first-child {
+  margin-left: 0;
+}
+#page-header nav ul li:hover {
+  background: #191919;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.container {
+  border: 5px solid lightgrey;
+  width: 100%;
+  margin-bottom: 0%;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px black;
+  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  background: -moz-linear-gradient(#ffffff, #aaaaaa);
+  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
+  background: linear-gradient(#ffffff, #aaaaaa);
+}
+
+.container-2 {
+  border: 5px solid lightgray;
+  width: 50%;
+  margin-bottom: 0%;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px black;
+  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  background: -moz-linear-gradient(#ffffff, #aaaaaa);
+  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
+  background: linear-gradient(#ffffff, #aaaaaa);
+}
+
+#page-footer {
+  height: 100px;
+  background: #323232;
+  position: relative;
+  border-top: 5px solid black;
+  color: white;
+  padding: 30px;
+  box-shadow: 0px -10px 30px black;
+  font-size: 1.2rem;
+}
+
+.page-title {
+  font-size: 18px;
+  color: #FFF;
+  background: #333333;
+  padding: 5px 20px;
+}
+
+.container-3 {
+  border: 5px solid lightgray;
+  width: 100%;
+  margin-bottom: 0%;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px black;
+  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  background: -moz-linear-gradient(#ffffff, #aaaaaa);
+  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
+  background: linear-gradient(#ffffff, #aaaaaa);
+}
