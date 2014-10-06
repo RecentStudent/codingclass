@@ -73,14 +73,46 @@ html body {
   box-shadow: 0px 10px 30px black;
 }
 #page-header .logo a {
-  background: url(http://www.me.ngb.army.mil/img/core/military_history.jpg) no-repeat;
-  position: absolute;
   top: 5px;
+  position: absolute;
   left: 10px;
   height: 92px;
   width: 127px;
   background-size: 100%;
 }
+#page-header .logo.homepage a {
+background: url(http://www.me.ngb.army.mil/img/core/military_history.jpg) no-repeat;
+
+}
+#page-header .logo.calendar a {
+
+
+}
+
+#page-header .logo.forum a {
+
+}
+
+#page-header .logo.unitperspectives a {
+  background: url(http://www.madisonavenuejournal.com/images/Washington.jpg) no-repeat;
+}
+
+#page-header .logo.currentevents a {
+
+}
+
+#page-header .logo.notes a {
+
+}
+
+#page-header .logo .rescources a {
+
+}
+
+#page-header .logo .homework a {
+
+}
+
 #page-header nav {
   margin: 15px auto;
   width: 75%;
@@ -113,9 +145,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-.container .forum-list {
+.container {
   border: 5px solid lightgrey;
-  width: 100%;
+  width: 90%;
   margin-bottom: 0%;
   margin-top: 100px;
   border-radius: 10px;
@@ -175,6 +207,88 @@ nav ul li a {
   background: -moz-linear-gradient(#ffffff, #aaaaaa);
   background: -webkit-linear-gradient(#ffffff, #aaaaaa);
   background: linear-gradient(#ffffff, #aaaaaa);
+}
+
+.calendar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  width: 100%;
+}
+
+.calendar li {
+  display: block;
+  float: left;
+  width: 14.2857142857%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+#page-footer {
+  height: 100px;
+  background: #323232;
+  position: relative;
+  border-top: 5px solid black;
+  color: white;
+  padding: 30px;
+  box-shadow: 0px -10px 30px black;
+  font-size: 1.2rem;
+}
+
+.page-title {
+  font-size: 22px;
+  color: #FFF;
+  background: #333333;
+}
+
+.friday {
+  margin-left: 71.5%;
+}
+
+.wednesday {
+  margin-left: 43%;
+}
+
+.thursday {
+  margin-left: 57.5%;
+}
+
+.tuesday {
+  margin-left: 29%;
+}
+
+.monday {
+  margin-left: 14.5%;
+}
+
+.day {
+  width: 140px;
+  height: 180px;
+  border-style: dotted red;
+}
+
+.header {
+  border: 5px solid lightgrey;
+  width: 90%;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px black;
+  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  background: -moz-linear-gradient(#ffffff, #aaaaaa);
+  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
+  background: linear-gradient(#ffffff, #aaaaaa);
+}
+
+.font {
+  text-align: center;
+  font-size: 40px;
 }
 
 
