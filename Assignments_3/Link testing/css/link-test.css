@@ -72,46 +72,56 @@ html body {
   border-bottom: 5px solid black;
   box-shadow: 0px 10px 30px black;
 }
+
 #page-header .logo a {
   top: 5px;
   position: absolute;
   left: 10px;
   height: 92px;
   width: 127px;
-  background-size: 100%;
 }
+
 #page-header .logo.homepage a {
 background: url(http://www.me.ngb.army.mil/img/core/military_history.jpg) no-repeat;
-
+background-size: 100%;
 }
+
 #page-header .logo.calendar a {
-
-
+background: url(http://www.history.com/images/media/video/history_america_story_of_us_statue_of_liberty_sf_1158148/History_America_Story_of_Us_Statue_of_Liberty_SF_still_624x352.jpg) no-repeat;
+background-size: 100%;
 }
 
 #page-header .logo.forum a {
-
+ no-repeat;
+background-size: 100%;
 }
 
 #page-header .logo.unitperspectives a {
-  background: url(http://www.madisonavenuejournal.com/images/Washington.jpg) no-repeat;
+  background: url(http://www.madisonavenuejournal.com/images/Washington.jpg)  no-repeat;
+background-size: 100%;
 }
 
 #page-header .logo.currentevents a {
-
+ no-repeat;
+background-size: 100%;
 }
 
 #page-header .logo.notes a {
-
+background:url(http://www.ucl.ac.uk/americas/us-studies/images/US-Constitution.jpg) no-repeat;
+background-size: 100%;
 }
 
-#page-header .logo .rescources a {
-
+#page-header .logo.rescources a {
+ no-repeat;
+background-size: 100%;
 }
 
-#page-header .logo .homework a {
-
+#page-header .logo.homework a {
+ no-repeat;
+background-size: 100%;
 }
+
+
 
 #page-header nav {
   margin: 15px auto;
@@ -145,23 +155,11 @@ nav ul li a {
   text-decoration: none;
 }
 
-.container {
-  border: 5px solid lightgrey;
-  width: 90%;
-  margin-bottom: 0%;
-  margin-top: 100px;
-  border-radius: 10px;
-  padding: 30px;
-  box-shadow: 0px 10px 30px black;
-  line-height: 19px;
-  font-size: 1.8rem;
-  line-height: 24px;
-  background: -moz-linear-gradient(#ffffff, #aaaaaa);
-  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
-  background: linear-gradient(#ffffff, #aaaaaa);
+.container.container-adjust {
+  margin: 40px 0px;
 }
 
-.container-2 {
+.container {
   border: 5px solid lightgray;
   width: 50%;
   margin-bottom: 0%;
@@ -194,20 +192,6 @@ nav ul li a {
   padding: 5px 20px;
 }
 
-.container-3 {
-  border: 5px solid lightgray;
-  width: 100%;
-  margin-bottom: 0%;
-  border-radius: 10px;
-  padding: 30px;
-  box-shadow: 0px 10px 30px black;
-  line-height: 19px;
-  font-size: 1.8rem;
-  line-height: 24px;
-  background: -moz-linear-gradient(#ffffff, #aaaaaa);
-  background: -webkit-linear-gradient(#ffffff, #aaaaaa);
-  background: linear-gradient(#ffffff, #aaaaaa);
-}
 
 .calendar ul {
   list-style: none;
