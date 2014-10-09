@@ -92,7 +92,7 @@ background-size: 100%;
 }
 
 #page-header .logo.forum a {
- no-repeat;
+background: url(http://www.citypictures.net/data/media/141/US_Landmarks_45.JPG) no-repeat;
 background-size: 100%;
 }
 
@@ -102,12 +102,12 @@ background-size: 100%;
 }
 
 #page-header .logo.currentevents a {
- no-repeat;
+background: url(http://static.tumblr.com/aa0a315710c21eb8fc7d248caa159fad/po6ndjp/3pMmpiho6/tumblr_static_canadian_soldier500big.jpg) no-repeat;
 background-size: 100%;
 }
 
 #page-header .logo.notes a {
-background:url(http://www.ucl.ac.uk/americas/us-studies/images/US-Constitution.jpg) no-repeat;
+background: url(http://www.ucl.ac.uk/americas/us-studies/images/US-Constitution.jpg) no-repeat;
 background-size: 100%;
 }
 
@@ -158,6 +158,8 @@ nav ul li a {
 .container.container-adjust {
   margin: 40px 0px;
 }
+
+
 
 .container {
   border: 5px solid lightgray;
@@ -275,4 +277,13 @@ nav ul li a {
   font-size: 40px;
 }
 
+.container.container-adjust.container-adjustp {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+
+.perspective-image {
+  float: right;
+}
