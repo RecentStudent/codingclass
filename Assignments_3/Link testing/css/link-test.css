@@ -68,9 +68,9 @@ html body {
   height: 70px;
   overflow: hidden;
   position: relative;
-  background: #323232;
-  border-bottom: 5px solid black;
-  box-shadow: 0px 10px 30px black;
+  background: #FF6699;
+  border-bottom: 5px #D6D6CC;
+  box-shadow: 0px 10px 30px #333;
 }
 
 #page-header .logo a {
@@ -147,7 +147,7 @@ background-size: 100%;
   margin-left: 0;
 }
 #page-header nav ul li:hover {
-  background: #191919;
+  background: #FF0066;
 }
 
 nav ul li a {
@@ -162,9 +162,9 @@ nav ul li a {
 
 
 .container {
-  border: 5px solid lightgray;
-  width: 50%;
-  margin-bottom: 0%;
+  border: 5px solid lightgrey;
+  width: 70%;
+  margin: 100px auto;
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0px 10px 30px black;
