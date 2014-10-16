@@ -66,11 +66,16 @@ html body {
 
 #page-header {
   height: 70px;
+  
   overflow: hidden;
   position: relative;
   background: #FF6699;
   border-bottom: 5px #D6D6CC;
   box-shadow: 0px 10px 30px #333;
+}
+
+#page-header nav {
+  margin-left: 150px;
 }
 
 #page-header .logo a {
@@ -195,67 +200,6 @@ nav ul li a {
 }
 
 
-.calendar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  clear: both;
-  width: 100%;
-}
-
-.calendar li {
-  display: block;
-  float: left;
-  width: 14.2857142857%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  margin-right: -1px;
-  margin-bottom: -1px;
-}
-
-#page-footer {
-  height: 100px;
-  background: #323232;
-  position: relative;
-  border-top: 5px solid black;
-  color: white;
-  padding: 30px;
-  box-shadow: 0px -10px 30px black;
-  font-size: 1.2rem;
-}
-
-.page-title {
-  font-size: 22px;
-  color: #FFF;
-  background: #333333;
-}
-
-.friday {
-  margin-left: 71.5%;
-}
-
-.wednesday {
-  margin-left: 43%;
-}
-
-.thursday {
-  margin-left: 57.5%;
-}
-
-.tuesday {
-  margin-left: 29%;
-}
-
-.monday {
-  margin-left: 14.5%;
-}
-
-.day {
-  width: 140px;
-  height: 180px;
-  border-style: dotted red;
-}
 
 .header {
   border: 5px solid lightgrey;
@@ -283,7 +227,62 @@ nav ul li a {
   margin-right: auto;
 }
 
+/*this is the end of universal css*/
+/*begining of unit-perspective css*/
 
 .perspective-image {
   float: right;
+}
+
+.perspective-link li a {
+  text-decoration: none;
+
+}
+
+/*end of unit-perspective css*/
+/*begining of calendar css*/
+
+.calendar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  width: 100%;
+}
+
+.calendar li {
+  display: block;
+  float: left;
+  width: 14.2857142857%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.friday {
+  margin-left: 71.5%;
+}
+
+.wednesday {
+  margin-left: 43%;
+}
+
+.thursday {
+  margin-left: 57.5%;
+}
+
+.tuesday {
+  margin-left: 29%;
+}
+
+.monday {
+  margin-left: 14.5%;
+}
+
+.day {
+  width: 140px;
+  height: 180px;
+  border-style: dotted red;
 }
