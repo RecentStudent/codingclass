@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 html {
   line-height: 1;
+  /*min-width: 2000px;*/
 }
 
 ol, ul {
@@ -71,11 +72,14 @@ html body {
   position: relative;
   background: #FF6699;
   border-bottom: 5px #D6D6CC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   box-shadow: 0px 10px 30px #333;
+  width: 100%;
 }
 
 #page-header nav {
-  margin-left: 150px;
+  margin-left: 175px;
 }
 
 #page-header .logo a {
@@ -88,32 +92,44 @@ html body {
 
 #page-header .logo.homepage a {
 background: url(http://www.me.ngb.army.mil/img/core/military_history.jpg) no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.calendar a {
 background: url(http://www.history.com/images/media/video/history_america_story_of_us_statue_of_liberty_sf_1158148/History_America_Story_of_Us_Statue_of_Liberty_SF_still_624x352.jpg) no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.forum a {
 background: url(http://www.citypictures.net/data/media/141/US_Landmarks_45.JPG) no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.unitperspectives a {
-  background: url(http://www.madisonavenuejournal.com/images/Washington.jpg)  no-repeat;
+background: url(http://www.madisonavenuejournal.com/images/Washington.jpg)  no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.currentevents a {
 background: url(http://static.tumblr.com/aa0a315710c21eb8fc7d248caa159fad/po6ndjp/3pMmpiho6/tumblr_static_canadian_soldier500big.jpg) no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.notes a {
 background: url(http://www.ucl.ac.uk/americas/us-studies/images/US-Constitution.jpg) no-repeat;
+width:127px; 
 background-size: 100%;
+height:60px;
 }
 
 #page-header .logo.rescources a {
@@ -129,11 +145,12 @@ background-size: 100%;
 
 
 #page-header nav {
-  margin: 15px auto;
+  
   width: 75%;
   font-size: 1.6rem;
 }
 #page-header nav ul {
+  margin: 15px auto;
   list-style-type: none;
   white-space: nowrap;
 }
@@ -183,9 +200,11 @@ nav ul li a {
 
 #page-footer {
   height: 100px;
-  background: #323232;
+  background: #FF6699;
   position: relative;
-  border-top: 5px solid black;
+  /*border-top: 5px solid black;*/
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   color: white;
   padding: 30px;
   box-shadow: 0px -10px 30px black;
@@ -242,47 +261,31 @@ nav ul li a {
 /*end of unit-perspective css*/
 /*begining of calendar css*/
 
-.calendar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  clear: both;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table#t01 {
   width: 100%;
+  background-color: #333;
+  font-size: 20px;
 }
 
-.calendar li {
-  display: block;
-  float: left;
-  width: 14.2857142857%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  margin-right: -1px;
-  margin-bottom: -1px;
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
 }
 
-.friday {
-  margin-left: 71.5%;
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
 }
 
-.wednesday {
-  margin-left: 43%;
+table#t01 th {
+  color: white;
+  background-color: black;
 }
 
-.thursday {
-  margin-left: 57.5%;
-}
-
-.tuesday {
-  margin-left: 29%;
-}
-
-.monday {
-  margin-left: 14.5%;
-}
-
-.day {
-  width: 140px;
-  height: 180px;
-  border-style: dotted red;
-}
