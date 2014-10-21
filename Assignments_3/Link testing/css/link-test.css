@@ -214,7 +214,7 @@ nav ul li a {
 .page-title {
   font-size: 18px;
   color: #FFF;
-  background: #333333;
+  background: #FF6699;
   padding: 5px 20px;
 }
 
@@ -288,4 +288,11 @@ table#t01 th {
   color: white;
   background-color: black;
 }
-
+/*end of calendar css*/
+/*begining of current-event css*/
+.left {
+  float:left
+}
+.right {
+  float:right;
+}
